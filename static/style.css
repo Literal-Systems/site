@@ -88,7 +88,7 @@ main {
 }
 
 .project-name {
-    font-size: 0.9em;
+    font-size: 0.7em;
 }
 
 .tags {
@@ -97,7 +97,7 @@ main {
 }
 
 .tag {
-    padding: 4px 12px;
+    padding: 2px 8px;
     background: transparent;
     border: 1px solid #d0d0d0;
     border-radius: 4px;

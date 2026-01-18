@@ -24,7 +24,8 @@
             </div>
 
             <main>
-                {% for project in section.extra.projects %}
+                {% set data = load_data(path="data/projects.toml") %}
+                {% for project in data.projects %}
                 <div class="project">
                     <div class="project-name">{{ project.name }}</div>
                     <div class="tags">
@@ -35,6 +36,10 @@
                 </div>
                 {% endfor %}
             </main>
+
+            <footer>
+                <p>© 2026 Kunal Kundu</p>
+            </footer>
         </div>
     </body>
 </html>
