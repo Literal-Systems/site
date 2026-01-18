@@ -13,21 +13,35 @@
                 <p>Hi, I'm Kunal.</p>
                 <br />
                 <p>
-                    I'm a software engineer with 5 years of professional
-                    experience. I build ... by leveraging ... .
+                    I'm a software engineer with 5+ years of professional
+                    experience. I build reliable web applications and tools end
+                    to end.
                 </p>
                 <br />
+                <p>My technical skills include:</p>
+                <ul>
+                    <li>TypeScript, JavaScript, Python, Go</li>
+                    <li>MongoDB, PostgreSQL, Elasticsearch, Redis</li>
+                    <li>React, Next.js, Tailwind CSS</li>
+                    <li>AWS, Docker, Kubernetes (K8s), Terraform</li>
+                </ul>
+                <br />
                 <p>
-                    I'm available for contract work. Feel free to contact me via
-                    email at {{ section.extra.email }}.
+                    I'm currently available for short-term contract work. Feel
+                    free to contact me via email at {{ section.extra.email }} or
+                    on
+                    <a href="{{ section.extra.linkedin }}">LinkedIn</a>.
                 </p>
             </div>
 
             <main>
-                {% set data = load_data(path="data/projects.toml") %}
-                {% for project in data.projects %}
+                {% set data = load_data(path="data/projects.toml") %} {% for
+                project in data.projects %}
                 <div class="project">
-                    <div class="project-name">{{ project.name }}</div>
+                    <div class="project-date">
+                        {{ project.start }} – {{ project.end }}
+                    </div>
+                    <div>{{ project.name }}</div>
                     <div class="tags">
                         {% for tag in project.tags %}
                         <span class="tag">{{ tag }}</span>
