@@ -28,28 +28,27 @@
                 <br />
                 <p>
                     I'm currently available for short-term contract work. Feel
-                    free to contact me via email at {{ section.extra.email }} or
+                    free to contact me via email at {{ .Site.Params.email }} or
                     on
-                    <a href="{{ section.extra.linkedin }}">LinkedIn</a>.
+                    <a href="{{ .Site.Params.linkedin }}">LinkedIn</a>.
                 </p>
             </div>
 
             <main>
-                {% set data = load_data(path="data/projects.toml") %} {% for
-                project in data.projects %}
+                {{ range .Site.Data.projects.projects }}
                 <div class="project">
                     <div class="project-date">
-                        {{ project.start }} – {{ project.end }}
+                        {{ .start }} – {{ .end }}
                     </div>
                     <div class="project-info">
                         <div class="project-header">
-                            <span>{{ project.name }}</span>
-                            <span class="industry">{{ project.industry }}</span>
+                            <span>{{ .name }}</span>
+                            <span class="industry">{{ .industry }}</span>
                         </div>
-                        <div class="project-description">{{ project.description | markdown(inline=true) | safe }}</div>
+                        <div class="project-description">{{ .description | markdownify | safeHTML }}</div>
                     </div>
                 </div>
-                {% endfor %}
+                {{ end }}
             </main>
 
             <footer>

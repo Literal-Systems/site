@@ -2,11 +2,11 @@
 
 # Build the site
 build:
-	zola build
+	hugo
 
 # Serve locally for development
 run:
-	zola serve
+	hugo server
 
 # Deploy to GitHub Pages using gh-pages package
 deploy: build

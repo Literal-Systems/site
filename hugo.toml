@@ -1,0 +1,11 @@
+baseURL = "https://literal.systems"
+languageCode = "en-us"
+title = "Literal Systems"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+email = "hi@literal.systems"
+linkedin = "https://www.linkedin.com/in/kunal-kundu/"
+
+[markup.goldmark.renderer]
+unsafe = true
