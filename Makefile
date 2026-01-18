@@ -1,11 +1,11 @@
-.PHONY: build deploy clean serve
+.PHONY: build deploy clean run
 
 # Build the site
 build:
 	zola build
 
 # Serve locally for development
-serve:
+run:
 	zola serve
 
 # Deploy to GitHub Pages using gh-pages package

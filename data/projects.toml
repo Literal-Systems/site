@@ -1,30 +1,18 @@
 [[projects]]
-name = "MainBranch"
+name = "(Redacted)"
 start = "08'25"
 end = "ㅤNOW"
 skills = ["TypeScript", "Python", "AWS", "K8s", "Terraform", "Helm", "ArgoCD"]
 industry = "Government"
+description = "AI-native workspace for local governments in USA."
 
 [[projects]]
 name = "ImageKit"
 start = "07'23"
 end = "07'25"
-skills = ["TypeScript", "Kafka", "Elasticsearch", "AWS S3", "MongoDB"]
+skills = ["TypeScript", "Kafka", "Elasticsearch", "MongoDB"]
 industry = "SaaS"
-
-[[projects]]
-name = "Verak"
-start = "09'20"
-end = "04'23"
-skills = ["JavaScript", "PostgreSQL", "Docker"]
-industry = "FinTech"
-
-[[projects]]
-name = "Mosaic Wellness"
-start = "08'20"
-end = "09'20"
-skills = ["React", "JavaScript"]
-industry = "Healthcare"
+description = "AI Media Transformations, Fair Scheduler with checkpointing"
 
 [[projects]]
 name = "Netlify"
@@ -32,3 +20,28 @@ start = "07'21"
 end = "02'23"
 skills = ["JavaScript", "Go"]
 industry = "Developer Tools"
+description = "CLI improvements and integrations"
+
+[[projects]]
+name = "Verak (YC W21)"
+start = "09'20"
+end = "04'23"
+skills = ["JavaScript", "PostgreSQL"]
+industry = "FinTech"
+description = "First engineer. Led the backend team to build internal tooling for selling business insurance. <br/>Build a in-house CRM and rule engine for policies."
+
+[[projects]]
+name = "Mosaic Wellness"
+start = "08'20"
+end = "09'20"
+skills = ["React", "JavaScript", "MongoDB"]
+industry = "Healthcare"
+description = "Made a platform for telemedicine scheduling and patient management. <br/>Migrated the core analytics dashboard from Retool to React."
+
+[[projects]]
+name = "Decap CMS"
+start = "04'20"
+end = "05'20"
+skills = ["JavaScript", "React"]
+industry = "SaaS"
+description = "Worked on improving the component library. <br/> [decap-cms](https://github.com/decaporg/decap-cms/commits/main/?author=tinfoil-knight)"

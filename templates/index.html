@@ -14,7 +14,8 @@
                 <br />
                 <p>
                     I'm a software engineer with 5+ years of professional
-                    experience. I build reliable web applications and tools.
+                    experience. I help startups by building web apps and setting
+                    up critical infrastructure.
                 </p>
                 <br />
                 <p>My technical skills include:</p>
@@ -22,7 +23,7 @@
                     <li>TypeScript, JavaScript, Python, Go</li>
                     <li>MongoDB, PostgreSQL, Elasticsearch, Kafka, Redis</li>
                     <li>React, Next.js, Tailwind CSS</li>
-                    <li>AWS, Terraform, Kubernetes (K8s)</li>
+                    <li>AWS, Terraform, Kubernetes (K8s), Helm, ArgoCD</li>
                 </ul>
                 <br />
                 <p>
@@ -40,12 +41,12 @@
                     <div class="project-date">
                         {{ project.start }} – {{ project.end }}
                     </div>
-                    <div>{{ project.name }}</div>
-                    <div class="industry">{{ project.industry }}</div>
-                    <div class="skills">
-                        {% for skill in project.skills %}
-                        <span class="skill">{{ skill }}</span>
-                        {% endfor %}
+                    <div class="project-info">
+                        <div class="project-header">
+                            <span>{{ project.name }}</span>
+                            <span class="industry">{{ project.industry }}</span>
+                        </div>
+                        <div class="project-description">{{ project.description | markdown(inline=true) | safe }}</div>
                     </div>
                 </div>
                 {% endfor %}
