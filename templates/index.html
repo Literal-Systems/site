@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Literal Systems</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="stylesheet" href="/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="intro">
+                <p>Hi, I'm Kunal.</p>
+                <br />
+                <p>
+                    I'm a software engineer with 5 years of professional
+                    experience. I build ... by leveraging ... .
+                </p>
+                <br />
+                <p>
+                    I'm available for contract work. Feel free to contact me via
+                    email at {{ section.extra.email }}.
+                </p>
+            </div>
+
+            <main>
+                {% for project in section.extra.projects %}
+                <div class="project">
+                    <div class="project-name">{{ project.name }}</div>
+                    <div class="tags">
+                        {% for tag in project.tags %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </main>
+        </div>
+    </body>
+</html>
