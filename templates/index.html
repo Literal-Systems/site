@@ -14,16 +14,15 @@
                 <br />
                 <p>
                     I'm a software engineer with 5+ years of professional
-                    experience. I build reliable web applications and tools end
-                    to end.
+                    experience. I build reliable web applications and tools.
                 </p>
                 <br />
                 <p>My technical skills include:</p>
                 <ul>
                     <li>TypeScript, JavaScript, Python, Go</li>
-                    <li>MongoDB, PostgreSQL, Elasticsearch, Redis</li>
+                    <li>MongoDB, PostgreSQL, Elasticsearch, Kafka, Redis</li>
                     <li>React, Next.js, Tailwind CSS</li>
-                    <li>AWS, Docker, Kubernetes (K8s), Terraform</li>
+                    <li>AWS, Terraform, Kubernetes (K8s)</li>
                 </ul>
                 <br />
                 <p>
@@ -42,9 +41,10 @@
                         {{ project.start }} – {{ project.end }}
                     </div>
                     <div>{{ project.name }}</div>
-                    <div class="tags">
-                        {% for tag in project.tags %}
-                        <span class="tag">{{ tag }}</span>
+                    <div class="industry">{{ project.industry }}</div>
+                    <div class="skills">
+                        {% for skill in project.skills %}
+                        <span class="skill">{{ skill }}</span>
                         {% endfor %}
                     </div>
                 </div>

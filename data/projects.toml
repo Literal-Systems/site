@@ -1,113 +1,34 @@
 [[projects]]
-name = "Project Alpha"
-start = "09’25"
-end = "01’26"
-tags = ["DIGITAL", "DEVELOPMENT"]
+name = "MainBranch"
+start = "08'25"
+end = "ㅤNOW"
+skills = ["TypeScript", "Python", "AWS", "K8s", "Terraform", "Helm", "ArgoCD"]
+industry = "Government"
 
 [[projects]]
-name = "BlueSky Studios"
-start = "06’25"
-end = "12’25"
-tags = ["DEVELOPMENT", "DIGITAL"]
+name = "ImageKit"
+start = "07'23"
+end = "07'25"
+skills = ["TypeScript", "Kafka", "Elasticsearch", "AWS S3", "MongoDB"]
+industry = "SaaS"
 
 [[projects]]
-name = "Vertex Labs"
-start = "03’25"
-end = "08’25"
-tags = ["DIGITAL", "DEVELOPMENT"]
+name = "Verak"
+start = "09'20"
+end = "04'23"
+skills = ["JavaScript", "PostgreSQL", "Docker"]
+industry = "FinTech"
 
 [[projects]]
-name = "NexGen Systems"
-start = "01’25"
-end = "06’25"
-tags = ["DEVELOPMENT", "DIGITAL"]
+name = "Mosaic Wellness"
+start = "08'20"
+end = "09'20"
+skills = ["React", "JavaScript"]
+industry = "Healthcare"
 
 [[projects]]
-name = "Haven Spaces"
-start = "10’24"
-end = "02’25"
-tags = ["DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Meridian Design"
-start = "07’24"
-end = "12’24"
-tags = ["DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Atlas Works"
-start = "04’24"
-end = "09’24"
-tags = ["DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Quantum Studios"
-start = "01’24"
-end = "06’24"
-tags = ["DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Citrus Market"
-start = "09’23"
-end = "03’24"
-tags = ["DEVELOPMENT", "DIGITAL", "E-COMMERCE"]
-
-[[projects]]
-name = "Tide Commerce"
-start = "06’23"
-end = "12’23"
-tags = ["DEVELOPMENT", "DIGITAL", "E-COMMERCE"]
-
-[[projects]]
-name = "Zero Proof Co"
-start = "03’23"
-end = "08’23"
-tags = ["DIGITAL", "DEVELOPMENT", "E-COMMERCE"]
-
-[[projects]]
-name = "Terra Botanics"
-start = "12’22"
-end = "05’23"
-tags = ["DEVELOPMENT", "DIGITAL", "E-COMMERCE"]
-
-[[projects]]
-name = "Summit Builders"
-start = "09’22"
-end = "02’23"
-tags = ["IDENTITY", "DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Canvas Studio"
-start = "06’22"
-end = "11’22"
-tags = ["DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Framework Design"
-start = "03’22"
-end = "08’22"
-tags = ["DIGITAL", "DEVELOPMENT"]
-
-[[projects]]
-name = "Culinary Collective"
-start = "12’21"
-end = "05’22"
-tags = ["DEVELOPMENT", "DIGITAL", "IDENTITY"]
-
-[[projects]]
-name = "Portfolio Site"
-start = "09’21"
-end = "02’22"
-tags = ["DEVELOPMENT", "DIGITAL"]
-
-[[projects]]
-name = "Motion Arts"
-start = "06’21"
-end = "11’21"
-tags = ["DIGITAL"]
-
-[[projects]]
-name = "Public Canvas"
-start = "03’21"
-end = "08’21"
-tags = ["DIGITAL"]
+name = "Netlify"
+start = "07'21"
+end = "02'23"
+skills = ["JavaScript", "Go"]
+industry = "Developer Tools"

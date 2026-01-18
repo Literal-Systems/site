@@ -1,0 +1,11 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "gh-pages -d public -m \"Deploy: $(date '+%Y-%m-%d %H:%M:%S')\""
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
