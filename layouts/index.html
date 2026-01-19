@@ -20,7 +20,7 @@
                 <br />
                 <p>My technical skills include:</p>
                 <ul>
-                    <li>TypeScript, JavaScript, Python, Go</li>
+                    <li>TypeScript, JavaScript, Python, Go, Rust</li>
                     <li>MongoDB, PostgreSQL, Elasticsearch, Kafka, Redis</li>
                     <li>React, Next.js, Tailwind CSS</li>
                     <li>AWS, Terraform, Kubernetes (K8s), Helm, ArgoCD</li>
@@ -30,22 +30,30 @@
                     I'm currently available for short-term contract work. Feel
                     free to contact me via email at {{ .Site.Params.email }} or
                     on
-                    <a href="{{ .Site.Params.linkedin }}">LinkedIn</a>.
+                    <a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
                 </p>
             </div>
 
             <main>
                 {{ range .Site.Data.projects.projects }}
                 <div class="project">
-                    <div class="project-date">
-                        {{ .start }} – {{ .end }}
-                    </div>
+                    <div class="project-date">{{ .start }} – {{ .end }}</div>
                     <div class="project-info">
                         <div class="project-header">
                             <span>{{ .name }}</span>
-                            <span class="industry">{{ .industry }}</span>
+                            {{ with .industry }}
+                              {{ if reflect.IsSlice . }}
+                                {{ range . }}
+                                  <span class="industry">{{ . }}</span>
+                                {{ end }}
+                              {{ else }}
+                                <span class="industry">{{ . }}</span>
+                              {{ end }}
+                            {{ end }}
                         </div>
-                        <div class="project-description">{{ .description | markdownify | safeHTML }}</div>
+                        <div class="project-description">
+                            {{ .description | markdownify | safeHTML }}
+                        </div>
                     </div>
                 </div>
                 {{ end }}

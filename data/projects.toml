@@ -3,8 +3,16 @@ name = "(Redacted)"
 start = "08'25"
 end = "ㅤNOW"
 skills = ["TypeScript", "Python", "AWS", "K8s", "Terraform", "Helm", "ArgoCD"]
-industry = "Government"
-description = "AI-native workspace for local governments in USA."
+industry = ["Government", "SaaS"]
+description = "Building an AI-native workspace for US local government departments. <br/>Created AI assistants for emails, research and data analysis. <br/>Created a crawler for multiple data sources (Google Drive, Gmail, Zendesk etc.) with support for partial updates. <br/>Setup K8s with AWS EKS for orchestrating multiple GPU-native services. <br/>Made an OCR pipeline to parse TBs of documents (PDFs, spreadsheets etc.) to text for better RAG."
+
+[[projects]]
+name = "Apache DataFusion"
+start = "03'24"
+end = "04'24"
+skills = ["Rust"]
+industry = "Developer Tools"
+description = "Contributed to Apache's extensible SQL query engine. <br/>Migrated mathematical functions to datafusion-functions module with macro-based refactoring. <br/>Implemented the 'AT TIME ZONE' clause for temporal queries. <br/>Refactored COPY command to streamline format options handling. <br/>See [commits](https://github.com/apache/datafusion/commits?author=tinfoil-knight)."
 
 [[projects]]
 name = "ImageKit"
@@ -12,7 +20,7 @@ start = "07'23"
 end = "07'25"
 skills = ["TypeScript", "Kafka", "Elasticsearch", "MongoDB"]
 industry = "SaaS"
-description = "AI Media Transformations, Fair Scheduler with checkpointing"
+description = "Implemented AI-powered image editing features for background removal, scene change, and captioning. <br/>Designed a fair scheduler with intermediate checkpoints for cost-sensitive jobs. <br/>Built a scalable audit log system with Kafka streaming, Elasticsearch indexing, and AWS S3-based recovery. <br/>Authored the top-ranked article on Google for [React video optimization](https://imagekit.io/blog/react-video-optimization/) as part of a technical writing hackathon."
 
 [[projects]]
 name = "Netlify"
@@ -20,28 +28,28 @@ start = "07'21"
 end = "02'23"
 skills = ["JavaScript", "Go"]
 industry = "Developer Tools"
-description = "CLI improvements and integrations"
+description = "Worked on Netlify's open-source CLI (40K+ weekly downloads). <br/>Added new command flags and output formats for the dev server and env management. <br/>Fixed bugs affecting redirects and deployment workflows that impacted DX. <br/>See [commits](https://github.com/netlify/cli/commits?author=tinfoil-knight)."
 
 [[projects]]
 name = "Verak (YC W21)"
 start = "09'20"
 end = "04'23"
 skills = ["JavaScript", "PostgreSQL"]
-industry = "FinTech"
-description = "First engineer. Led the backend team to build internal tooling for selling business insurance. <br/>Build a in-house CRM and rule engine for policies."
+industry = ["FinTech", "Insurance"]
+description = "First engineer. Hired and mentored the rest of our engineering team. <br/>Led the backend team to build internal tooling for selling business insurance. <br/>Built an in-house CRM and rule engine for policies. <br/>Setup the initial component library for the app."
 
 [[projects]]
 name = "Mosaic Wellness"
 start = "08'20"
 end = "09'20"
 skills = ["React", "JavaScript", "MongoDB"]
-industry = "Healthcare"
-description = "Made a platform for telemedicine scheduling and patient management. <br/>Migrated the core analytics dashboard from Retool to React."
+industry = ["Healthcare", "E-Commerce"]
+description = "Made a platform for telemedicine scheduling and patient management. <br/>Migrated the core analytics dashboard from [Retool](https://retool.com/) to React."
 
 [[projects]]
-name = "Decap CMS"
+name = "Decap CMS (erstwhile Netlify CMS)"
 start = "04'20"
 end = "05'20"
 skills = ["JavaScript", "React"]
 industry = "SaaS"
-description = "Worked on improving the component library. <br/> [decap-cms](https://github.com/decaporg/decap-cms/commits/main/?author=tinfoil-knight)"
+description = "Contributed to the component library. <br/>See [commits](https://github.com/decaporg/decap-cms/commits/main/?author=tinfoil-knight)."
