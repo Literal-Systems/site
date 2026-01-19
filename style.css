@@ -18,7 +18,12 @@ body {
 
 a {
     color: #212a37;
-    text-decoration: underline;
+    text-decoration: underline dotted;
+}
+
+a::after {
+    content: "↗";
+    margin-left: 0.15em;
 }
 
 .container {
@@ -60,9 +65,9 @@ main {
 
 .project {
     display: grid;
-    grid-template-columns: 8em minmax(12em, auto) auto 1fr;
+    grid-template-columns: 8em 1fr;
     gap: 0.5em;
-    align-items: center;
+    align-items: start;
     padding: 0.75em 0;
     border-bottom: 1px solid #e0e0e0;
     font-size: 0.7em;
@@ -77,6 +82,24 @@ main {
     font-family: monospace;
     opacity: 0.6;
     font-size: 0.9rem;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.project-header {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.project-description {
+    opacity: 0.7;
+    font-size: 0.9em;
+    line-height: 1.4;
 }
 
 .skills {
@@ -111,11 +134,6 @@ footer {
     align-items: center;
     padding-top: 1.25em;
     font-size: 0.6em;
-}
-
-footer a {
-    color: #212a37;
-    text-decoration: underline;
 }
 
 @media (max-width: 48em) {
