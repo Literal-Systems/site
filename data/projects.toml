@@ -36,7 +36,7 @@ start = "09'20"
 end = "04'23"
 skills = ["JavaScript", "PostgreSQL"]
 industry = ["FinTech", "Insurance"]
-description = "First engineer. Hired and mentored the rest of our engineering team. <br/>Led the backend team to build internal tooling for selling business insurance. <br/>Built an in-house CRM and rule engine for policies. <br/>Setup the initial component library for the app."
+description = "First engineer. Hired and mentored the rest of our engineering team. <br/>Led the backend team to build internal tooling for selling business insurance. <br/>Built an in-house CRM and rule engine for policies. <br/>Created the initial component library for the app in Storybook."
 
 [[projects]]
 name = "Mosaic Wellness"
