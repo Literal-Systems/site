@@ -14,8 +14,8 @@
                 <br />
                 <p>
                     I'm a software engineer with 5+ years of professional
-                    experience. I help startups by building web apps and setting
-                    up critical infrastructure.
+                    experience. I build and ship full-stack products for
+                    startups - from AI features to scalable infrastructure.
                 </p>
                 <br />
                 <p>My technical skills include:</p>
@@ -30,7 +30,12 @@
                     I'm currently available for short-term contract work. Feel
                     free to contact me via email at {{ .Site.Params.email }} or
                     on
-                    <a href="{{ .Site.Params.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+                    <a
+                        href="{{ .Site.Params.linkedin }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >LinkedIn</a
+                    >.
                 </p>
             </div>
 
@@ -41,14 +46,8 @@
                     <div class="project-info">
                         <div class="project-header">
                             <span>{{ .name }}</span>
-                            {{ with .industry }}
-                              {{ if reflect.IsSlice . }}
-                                {{ range . }}
-                                  <span class="industry">{{ . }}</span>
-                                {{ end }}
-                              {{ else }}
-                                <span class="industry">{{ . }}</span>
-                              {{ end }}
+                            {{ range .industry }}
+                            <span class="industry">{{ . }}</span>
                             {{ end }}
                         </div>
                         <div class="project-description">

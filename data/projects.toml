@@ -11,7 +11,7 @@ name = "Apache DataFusion"
 start = "03'24"
 end = "04'24"
 skills = ["Rust"]
-industry = "Developer Tools"
+industry = ["Databases"]
 description = "Contributed to Apache's extensible SQL query engine. <br/>Migrated mathematical functions to datafusion-functions module with macro-based refactoring. <br/>Implemented the 'AT TIME ZONE' clause for temporal queries. <br/>Refactored COPY command to streamline format options handling. <br/>See [commits](https://github.com/apache/datafusion/commits?author=tinfoil-knight)."
 
 [[projects]]
@@ -19,7 +19,7 @@ name = "ImageKit"
 start = "07'23"
 end = "07'25"
 skills = ["TypeScript", "Kafka", "Elasticsearch", "MongoDB"]
-industry = "SaaS"
+industry = ["Media", "Infrastructure", "SaaS"]
 description = "Implemented AI-powered image editing features for background removal, scene change, and captioning. <br/>Designed a fair scheduler with intermediate checkpoints for cost-sensitive jobs. <br/>Built a scalable audit log system with Kafka streaming, Elasticsearch indexing, and AWS S3-based recovery. <br/>Authored the top-ranked article on Google for [React video optimization](https://imagekit.io/blog/react-video-optimization/) as part of a technical writing hackathon."
 
 [[projects]]
@@ -27,7 +27,7 @@ name = "Netlify"
 start = "07'21"
 end = "02'23"
 skills = ["JavaScript", "Go"]
-industry = "Developer Tools"
+industry = ["Developer Tools"]
 description = "Worked on Netlify's open-source CLI (40K+ weekly downloads). <br/>Added new command flags and output formats for the dev server and env management. <br/>Fixed bugs affecting redirects and deployment workflows that impacted DX. <br/>See [commits](https://github.com/netlify/cli/commits?author=tinfoil-knight)."
 
 [[projects]]
@@ -51,5 +51,5 @@ name = "Decap CMS (erstwhile Netlify CMS)"
 start = "04'20"
 end = "05'20"
 skills = ["JavaScript", "React"]
-industry = "SaaS"
+industry = ["Developer Tools"]
 description = "Contributed to the component library. <br/>See [commits](https://github.com/decaporg/decap-cms/commits/main/?author=tinfoil-knight)."
