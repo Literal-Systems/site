@@ -1,7 +1,7 @@
 baseURL = "https://www.literal.systems"
 languageCode = "en-us"
 title = "Literal Systems"
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
 email = "hi@literal.systems"

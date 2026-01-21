@@ -1,7 +1,7 @@
 .PHONY: build deploy clean run
 
 # Build the site
-build:
+build: clean
 	hugo
 
 # Serve locally for development
