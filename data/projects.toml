@@ -1,13 +1,24 @@
 [[projects]]
 name = "(Redacted)"
+link = ""
 start = "08'25"
 end = "ㅤNOW"
 skills = ["TypeScript", "Python", "AWS", "K8s", "Terraform", "Helm", "ArgoCD"]
 industry = ["Government", "SaaS"]
-description = "Building an AI-native workspace for US local government departments. <br/>Created AI assistants for emails, research and data analysis. <br/>Created a crawler for multiple data sources (Google Drive, Gmail, Zendesk etc.) with support for partial updates. <br/>Setup K8s with AWS EKS for orchestrating multiple GPU-native services. <br/>Made an OCR pipeline to parse TBs of documents (PDFs, spreadsheets etc.) to text for better RAG."
+description = "Building an AI-native workspace for US local government departments. <br/>Created AI assistants for emails, research and data analysis. <br/>Created a crawler for multiple data sources (Google Drive, Gmail, Zendesk etc.) with support for partial updates. <br/>Setup K8s with AWS EKS for orchestrating multiple GPU-native services. <br/>Made an OCR pipeline to parse TBs of documents (PDFs, spreadsheets etc.) to text for better RAG. <br/>Implemented all infrastructure and IT changes required for SOC2 certification."
+
+[[projects]]
+name = "Aqlia"
+link = "https://aqlia.org/"
+start = "11'25"
+end = "01'26"
+skills = []
+industry = ["EdTech"]
+description = "Built an AI-powered LMS (learning management system) for institutes. <br/>Developed AI quiz generation from topics and reference materials. <br/>Created an AI chatbot grounded in uploaded course materials. <br/>Built batch and classroom management for organizing students and tracking attendance."
 
 [[projects]]
 name = "Apache DataFusion"
+link = "https://datafusion.apache.org/"
 start = "03'24"
 end = "04'24"
 skills = ["Rust"]
@@ -16,6 +27,7 @@ description = "Contributed to Apache's extensible SQL query engine. <br/>Migrate
 
 [[projects]]
 name = "ImageKit"
+link = "https://imagekit.io/"
 start = "07'23"
 end = "07'25"
 skills = ["TypeScript", "Kafka", "Elasticsearch", "MongoDB"]
@@ -24,6 +36,7 @@ description = "Implemented AI-powered image editing features for background remo
 
 [[projects]]
 name = "Netlify"
+link = "https://www.netlify.com/"
 start = "07'21"
 end = "02'23"
 skills = ["JavaScript", "Go"]
@@ -32,6 +45,7 @@ description = "Worked on Netlify's open-source CLI (40K+ weekly downloads). <br/
 
 [[projects]]
 name = "Verak (YC W21)"
+link = "https://www.linkedin.com/company/verak/"
 start = "09'20"
 end = "04'23"
 skills = ["JavaScript", "PostgreSQL"]
@@ -40,6 +54,7 @@ description = "First engineer. Hired and mentored the rest of our engineering te
 
 [[projects]]
 name = "Mosaic Wellness"
+link = "https://mosaicwellness.in/"
 start = "08'20"
 end = "09'20"
 skills = ["React", "JavaScript", "MongoDB"]
@@ -48,8 +63,18 @@ description = "Made a platform for telemedicine scheduling and patient managemen
 
 [[projects]]
 name = "Decap CMS (erstwhile Netlify CMS)"
+link = "https://decapcms.org/"
 start = "04'20"
 end = "05'20"
 skills = ["JavaScript", "React"]
 industry = ["Developer Tools"]
 description = "Contributed to the component library. <br/>See [commits](https://github.com/decaporg/decap-cms/commits/main/?author=tinfoil-knight)."
+
+[[projects]]
+name = "Covid India"
+link = "https://www.linkedin.com/company/covidindia-org/"
+start = "03'20"
+end = "04'20"
+skills = ["JavaScript", "Node.js"]
+industry = ["Healthcare"]
+description = "Worked on data visualisation and charts for mapping cases and displaying trends. <br/>Created a WhatsApp chatbot using Node.js to get location-wise helpline info, symptoms, and precautions."

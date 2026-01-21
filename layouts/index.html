@@ -45,7 +45,7 @@
                     <div class="project-date">{{ .start }} – {{ .end }}</div>
                     <div class="project-info">
                         <div class="project-header">
-                            <span>{{ .name }}</span>
+                            {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>{{ else }}<span>{{ .name }}</span>{{ end }}
                             {{ range .industry }}
                             <span class="industry">{{ . }}</span>
                             {{ end }}
