@@ -27,9 +27,8 @@
                 </ul>
                 <br />
                 <p>
-                    I'm currently available for short-term contract work. Feel
-                    free to contact me via email at {{ .Site.Params.email }} or
-                    on
+                    Feel free to contact me via email at {{ .Site.Params.email
+                    }} or on
                     <a
                         href="{{ .Site.Params.linkedin }}"
                         target="_blank"
@@ -45,8 +44,13 @@
                     <div class="project-date">{{ .start }} – {{ .end }}</div>
                     <div class="project-info">
                         <div class="project-header">
-                            {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>{{ else }}<span>{{ .name }}</span>{{ end }}
-                            {{ range .industry }}
+                            {{ if .link }}<a
+                                href="{{ .link }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >{{ .name }}</a
+                            >{{ else }}<span>{{ .name }}</span>{{ end }} {{
+                            range .industry }}
                             <span class="industry">{{ . }}</span>
                             {{ end }}
                         </div>

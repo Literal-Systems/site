@@ -31,6 +31,12 @@ a::after {
     margin: 0 auto;
 }
 
+@media (min-width: 48em) {
+    .container {
+        padding-left: 1rem;
+    }
+}
+
 .intro {
     margin-bottom: 3.75em;
     font-size: 1em;
